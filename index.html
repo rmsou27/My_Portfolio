@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Souhardh</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<script src="app.js"></script>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Souhardh's Portfolio</div>
+            <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="home">
+        <section class="firstsection">
+            <div class="leftsection">
+                <div class="leftcontent">
+                    <p>Hi, My Name Is <span>Souhardh Munnolli</span> I am a Web Developer</p>
+                    <span id="element"></span>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="new.png" alt="Developer Image">
+            </div>
+        </section>
+    </main>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I'm Souhardh Munnolli, a passionate web developer with experience in creating dynamic and responsive websites. I specialize in front-end and back-end technologies, always striving to build efficient and innovative solutions.
+            </p>
+            <a href="SOUHARDH RM.pdf" download="Souhardh_Munnolli_Resume.pdf" class="download-btn">Download My Resume</a>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-card">
+                <h3>Bachelor of Engineering in Computer Science</h3>
+                <p>BGMIT Mudhol, Baglkot (VTU University, 2020 - 2024)</p>
+                <p>CGPA: 7.0</p>
+            </div>
+            <div class="education-card">
+                <h3>PUC : Science</h3>
+                <p>Sai Niketan PU College, Mudhol, Baglkot</p>
+                <p>Aggregate-60%</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li> Programming langauges (JavaScript, Java)</li>
+                <li>Frameworks(HTML, CSS, BootStrap)</li>
+                <li>Database Management (SQL)</li>
+                <li>Version Control (GitHub)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>Smart Medicare and Insurance Recommendation using Machine Learning</h3>
+                <p> This project introduces an integrated Healthcare Management System to enhance overall efficiency in Healthcare processes. The centralized electronic health records, ensuring secure storage for patient data management. We use HTML, CSS
+                    and JavaScript for frontend and python for backend <br>Tool used :VS code, MySQL,
+                </p>
+            </div>
+            <div class="project-item">
+                <h3>Hospital Management System</h3>
+                <p> Developed a comprehensive Hospital Management System using a relational database management system (DBMS) such as MySQL, Apache server ensuring efficient data storage and retrieval. We use HTML and CSS for front end design and javascript
+                    for backend purposes. <br>Tool used: VS code and Wamp Server.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you have any questions or would like to collaborate, feel free to reach out!</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+    
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Contact Me: <a href="mailto:souhardh@example.com">rmsouhardh27@gmail.com</a></p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/souhardh_rm?igsh=bHB6NGFxdmM2YWl5" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+                <a href="https://www.linkedin.com/in/souhardhm-aa0b98220/" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
+                <a href="https://x.com/Souhardh9" target="_blank"><img src="twitter .png" alt="Twitter"></a>
+                <a href="https://github.com/rmsou27/" target="_blank"><img src="github2.png" alt="GitHub"></a>
+            </div>
+            <p>&copy; 2025 rmsou27. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
