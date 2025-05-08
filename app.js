@@ -1,9 +1,3 @@
-// Header part logic 
-function toggleMenu() {
-    var menu = document.querySelector(".right ul");
-    menu.classList.toggle("active");
-}
-
 document.addEventListener("DOMContentLoaded", function() {
     const form = document.querySelector(".contact form");
 
@@ -40,4 +34,19 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
     });
+
+    // Show or hide the Back to Top button based on scroll position
+    window.onscroll = function () {
+        const backToTopButton = document.getElementById('back-to-top');
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            backToTopButton.style.display = 'flex';
+        } else {
+            backToTopButton.style.display = 'none';
+        }
+    };
+
+    // Scroll to the top of the page when the button is clicked
+    window.scrollToTop = function () {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
 });
