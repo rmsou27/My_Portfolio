@@ -386,6 +386,30 @@ footer p {
     transform: scale(1.1);
 }
 
+/* Back to Top Button Styles */
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(163, 10, 10);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: none; /* Initially hidden */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#back-to-top:hover {
+    background-color: #0c305e; /* Slightly darker shade for hover effect */
+}
+
 
 /* Responsive */
 
